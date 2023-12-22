@@ -3,7 +3,7 @@ set -ue
 
 #input file is *.sam file, however you can skip the first several lines if you start with bam file type.
 #Ensure you have installed samtools, bedtools, and set the right directorly for the reference genome "NC_018143_TB_lambda_genome" and rRNA reference informaiton "TB_H37RV.RNA.bed".
-#Output file *PE_2_S.bowtie2mapping.sorted.bam is the most important file for the downstream data analysis.
+#The most crucial output file for data visualization is *PE_2_S.bowtie2mapping.sorted.bam. The file *PE_2.bedpe is used to generate a summed text file for downstream analysis. Additionally, *PE_2_S.fa contains the sequence information of full-length transcripts inferred from the previous mapping results.
 
 
 
