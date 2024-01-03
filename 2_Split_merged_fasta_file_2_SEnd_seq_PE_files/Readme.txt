@@ -1,0 +1,1 @@
+The Perl script “merged_fasta_split_to_PE_reads_of_SEnd_seq.pl” functions similarly with “fasta_to_paired”. However, it has an additional feature that allows for one mismatch in the adaptor sequence in high-throughput sequencing data.
